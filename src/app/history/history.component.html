@@ -1,0 +1,6 @@
+<div class="history">
+    <h3>Búsquedas recientes:</h3>
+    <ul class="lista">
+        <li *ngFor="let item of listHistory" (click)="search(item)" class="boton">{{ item }}</li>
+    </ul>
+</div>

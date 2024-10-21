@@ -1,0 +1,30 @@
+.history {
+    max-width: 600px;
+    margin: 20px auto 10px auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.lista {
+    direction: flex;
+    flex-wrap: wrap;
+    margin: 10px auto auto auto;
+    padding: 0;
+    justify-content: flex-start;
+}
+
+.boton {
+    cursor: pointer;
+    background: #3079DA;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background: #4187E2;
+    transform: scale(1.05);
+}
